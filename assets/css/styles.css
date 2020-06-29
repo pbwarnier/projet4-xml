@@ -1,0 +1,25 @@
+h1{
+	padding: 2rem;
+	background-color: #FF4500;
+	color: #fff;
+}
+
+.gallery_box_single{
+	width: 100%;
+	display: flex;
+	overflow-x: scroll;
+}
+
+.img{
+	margin-right: 30px;
+	width: auto;
+	display: inline-block;
+}
+
+.caption-text{
+	text-align: center;
+}
+
+form{
+	margin-top: 200px;
+}
