@@ -101,6 +101,9 @@ button {
 .quote {
 	border-radius: 0 0 10px 10px;
 }
+.contact {
+	list-style: none;
+}
 
 @media screen and (max-width: 768px){
 	a:hover {
