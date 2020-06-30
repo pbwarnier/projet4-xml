@@ -19,7 +19,7 @@ header .headerContainer
 	background: linear-gradient(90deg, rgba(255,221,114,1) 1%, rgba(255,143,31,1) 46%, rgba(255,127,33,1) 86%,rgba(255,86,0,1) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-stroke: 4px;
-	-webkit-text-stroke-color: rgb(236, 236, 236);
+	-webkit-text-stroke-color: rgb(255, 255, 255);
 	-webkit-text-fill-color: transparent;
 	transform: translateY(-17%);
 }
@@ -30,13 +30,12 @@ h1{
 								   	   rgba(255,127,33,1) 46%,
 									   rgba(255,143,31,1) 86%,
 									   rgba(255,221,114,1) 100%);
-	color: rgb(236, 236, 236);
+	color: rgb(255, 255, 255);
 }
 
 .gallery_box_single{
 	width: 100%;
 	display: flex;
-	overflow-x: scroll;
 }
 
 .img{
