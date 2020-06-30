@@ -102,4 +102,10 @@ button {
 	border-radius: 0 0 10px 10px;
 }
 
-/*============= PARALLAX =============*/
+@media screen and (max-width: 768px){
+	a:hover {
+		transform: scale(1);
+		color: #ffffff !important;
+		transition: 0.3s ease-out;
+	}
+}
