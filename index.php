@@ -14,25 +14,32 @@
 	</head>
 	<body>
 		<header>
-			<div class="headerContainer"><p class="ocordoHeaderTitle">OCORDO</p></div>
+			<div class="headerContainer">
+				<p class="ocordoHeaderTitle">OCORDO</p>
+			</div>
 		</header>
-		<nav class="navbar navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
   			<a class="navbar-brand" href="index.php?id=1"><img width="40" src="assets/img/ocordoLogo.png" alt="Logo Ocordo"></a>
-    		<ul class="navbar-nav mr-auto flex-row">
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbar">
+    			<ul class="navbar-nav mr-auto flex-md-row">
 <?php
-			// Boucle pour ajouter tous les liens de la navbar
-			// $i est le compte tour et le numéro de case du tableau XML
-			// on affiche l'id de la case dans le lien <a>
-			// on affiche le texte XML de <menu> dans le texte du lien HTML <a> 
-   			for ($i = 0; $i <= 3; $i++) {
+				// Boucle pour ajouter tous les liens de la navbar
+				// $i est le compte tour et le numéro de case du tableau XML
+				// on affiche l'id de la case dans le lien <a>
+				// on affiche le texte XML de <menu> dans le texte du lien HTML <a> 
+	   			for ($i = 0; $i <= 3; $i++) {
 ?>
-				<li class="mr-3 p-2 nav-item">
-        			<a class="nav-link" href="index.php?id=<?= $xml -> page[$i]['id'] ?>"><?= $xml -> page[$i] -> menu ?></a>
-      			</li>
+					<li class="mr-3 p-2 nav-item">
+	        			<a class="nav-link" href="index.php?id=<?= $xml -> page[$i]['id'] ?>"><?= $xml -> page[$i] -> menu ?></a>
+	      			</li>
 <?php 					
-   			}
+   				}
 ?>
-    		</ul>
+    			</ul>
+    		</div>
 		</nav>
 		<div class="w-100 p-3">
 			<?= $xml -> page[$case] -> content ?>
