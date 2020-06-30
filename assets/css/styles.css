@@ -57,3 +57,6 @@ button {
 	border-radius: 5px;
 	border: 1px groove rgb(189, 190, 194);
 }
+.quote {
+	border-radius: 0 0 10px 10px;
+}
