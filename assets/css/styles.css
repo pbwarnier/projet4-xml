@@ -15,14 +15,29 @@ header .headerContainer
 	font-family: 'impact';
 	font-size: 20vw;
 	color: transparent;
-	background-image: linear-gradient(0deg, #343A40 ,rgb(46, 46, 46));
 	background-position: 50%;
 	background: linear-gradient(90deg, rgba(255,221,114,1) 1%, rgba(255,143,31,1) 46%, rgba(255,127,33,1) 86%,rgba(255,86,0,1) 100%);
 	-webkit-background-clip: text;
-	-webkit-text-stroke: 4px;
+	-webkit-text-stroke: 2px;
 	-webkit-text-stroke-color: rgb(255, 255, 255);
 	-webkit-text-fill-color: transparent;
 	transform: translateY(-17%);
+}
+
+header .headerContainer:hover
+{
+	margin: auto;
+	padding: 0;
+	font-family: 'impact';
+	font-size: 20vw;
+	color: transparent;
+	background-position: 50%;
+	background-image:  url('/assets/img/bgHeader.png');
+	-webkit-background-clip: text;
+	background-size: cover;
+	letter-spacing: 0.10em;
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 a{
@@ -51,12 +66,6 @@ h1{
 	display: flex;
 }
 
-.img{
-	margin-right: 30px;
-	width: auto;
-	display: inline-block;
-}
-
 .caption-text{
 	text-align: center;
 }
@@ -72,12 +81,4 @@ button {
 	width: 20%;
 	border-radius: 5px;
 	border: 1px groove rgb(189, 190, 194);
-}
-
-@media screen and (max-width: 768px){
-	a:hover {
-		transform: scale(1);
-		color: #ffffff !important;
-		transition: 0.3s ease-out;
-	}
 }
