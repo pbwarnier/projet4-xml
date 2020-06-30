@@ -14,7 +14,9 @@
 	</head>
 	<body>
 		<header>
-			<div class="headerContainer"><p class="ocordoHeaderTitle">OCORDO</p></div>
+			<div class="headerContainer">
+				<p class="ocordoHeaderTitle">OCORDO</p>
+			</div>
 		</header>
 		<nav class="navbar navbar-dark bg-dark">
   			<a class="navbar-brand" href="index.php?id=1"><img width="40" src="assets/img/ocordoLogo.png" alt="Logo Ocordo"></a>
