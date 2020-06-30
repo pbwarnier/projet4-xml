@@ -23,7 +23,6 @@ header .headerContainer
 	-webkit-text-fill-color: transparent;
 	transform: translateY(-17%);
 }
-
 header .headerContainer:hover
 {
 	margin: auto;
@@ -73,7 +72,7 @@ h1{
 form{
 	margin-top: 200px;
 	background-color: #343A40;
-	border-radius: 5px;
+	border-radius: 0 0 10px 10px;
 }
 
 button {
