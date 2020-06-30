@@ -42,12 +42,6 @@ h1{
 	display: flex;
 }
 
-.img{
-	margin-right: 30px;
-	width: auto;
-	display: inline-block;
-}
-
 .caption-text{
 	text-align: center;
 }
