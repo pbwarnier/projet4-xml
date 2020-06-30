@@ -9,23 +9,23 @@
 <p class="text-justify mx-5">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2 class="text-center mt-5">Nos dernières réalisations à Nantes</h2>
 <div class="gallery_box_single row justify-content-around">
-    <div class="img col-md-3 m-2 p-0">
+    <div class="img col-lg-4 col-md-6 text-center p-0">
         <img src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/>
         <p class="caption-text">Rénovation d'un appartement à Nantes</p>
     </div>
-    <div class="img col-md-3 m-2 p-0">
+    <div class="img col-lg-4 col-md-6 text-center p-0">
         <img src="assets/img/Travaux-de-renovation-a-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/>
         <p class="caption-text">Aménagement de comble à Nantes</p>
     </div>
-    <div class="img col-md-3 m-2 p-0">
+    <div class="img col-lg-4 col-md-6 text-center p-0">
         <img src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/>
         <p class="caption-text">Rénovation d'une maison à Nantes</p>
     </div>
-    <div class="img col-md-3 m-2 ml-5 p-0">
+    <div class="img col-lg-4 col-md-6 text-center p-0">
         <img src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/>
         <p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p>
     </div>
-    <div class="img col-md-3 m-2 mr-5 p-0">
+    <div class="img col-lg-4 col-md-6 text-center p-0">
         <img src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/>
         <p class="caption-text">Rénovation d'un appartement à Nantes</p>
     </div>	
@@ -77,13 +77,13 @@
         <title>Avis clients - Maçonnerie Ocordo</title>
         <content><![CDATA[<h1 class="text-center">Nos clients témoignent</h1>
 <div class="testimonials-list">
-    <div class="quote">
-        <h2 class="mx-5 mt-4">Rénovation transformation</h2>
+    <div class="quote border border-dark mt-5 mx-5">
+        <h2 class="p-2">Rénovation transformation</h2>
         <p class="text-justify mx-5">Transformation rénovation d’un garage et refaire les murs ( placo), l’electricité (prises, eclairage leds ),le sol ( carrelage), les peintures et changement d’une porte-fenêtre. Devis: précis et rapide. Prestations au rythme convenu, réalisation des travaux sans failles, très bonnes prestation. Chantier: propreté absolue et nettoyage complet à la fin. Bémol : 2 jours de retard à cause du retard de livraison de la fenêtre, mais vraiment pas grave. Prix: très raisonnable. Je recommande Ocordo pour l’efficacité du travail réalisé en amont: devis, tarifs. Ils connaissent le travail.</p>
         <p class="text-justify mx-5 font-italic">BrunoPH</p>
     </div>
-    <div class="quote">
-        <h2 class="mx-5 mt-4">Sérieux</h2>
+    <div class="quote border border-dark mt-5 mx-5">
+        <h2 class="p-2">Sérieux</h2>
         <p class="text-justify mx-5">Nous sommes satisfait du travail de cette entreprise qui a rénové notre maison quand nous sommes arrivés à lille. il y avait tout a rénové et leur commercial a su nous consacrer du temps pour nous proposer un projet qui convenait à notre gout et à notre budget. les travaux ont été bien fait à part un petit détail au niveau de la fourniture de la robineterie de la cuisine mais sans gravité</p>
         <p class="text-justify mx-5 font-italic">PJ9e7S9L</p>
     </div>
@@ -100,7 +100,7 @@
     <li>Ou écrivez-nous à cette adresse email : contact@ocordo-travaux.fr</li>
     <li>Ou compétez le formulaire ci-dessous :</li>
 </ul>
-<div role="form">
+<div role="form" class="w-50 mx-auto">
     <form action="/contact-devis#f69-p47-o1" method="post" class="form p-5 container text-light" novalidate="novalidate">
         <label>Votre nom * :</label>
         <input name="your-name" value="" size="40" class="form-control text validates-as-required" type="text">
@@ -113,7 +113,7 @@
         <label class="mt-3">Votre ville :</label>
         <input name="your-ville" value="" size="40" class="form-control text"  type="text">
         <label class="mt-3">Votre message * :</label>
-        <textarea name="your-message" cols="40" rows="10" class="form-control textarea validates-as-required"  ></textarea>
+        <textarea name="your-message" cols="40" rows="5" class="form-control textarea validates-as-required"  ></textarea>
     </form>
 </div>
 ]]></content>

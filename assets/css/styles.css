@@ -39,7 +39,10 @@ header .headerContainer:hover
 	-webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
-
+a:hover {
+	font-size: 15px;
+	color: white !important;
+}
 h1{
 	padding: 2rem;
 	background: rgb(255,86,0);
@@ -55,12 +58,6 @@ h1{
 	display: flex;
 }
 
-.img{
-	margin-right: 30px;
-	width: auto;
-	display: inline-block;
-}
-
 .caption-text{
 	text-align: center;
 }
@@ -68,4 +65,11 @@ h1{
 form{
 	margin-top: 200px;
 	background-color: #343A40;
+	border-radius: 5px;
+}
+button {
+	margin-top: 15px;
+	width: 20%;
+	border-radius: 5px;
+	border: 1px groove rgb(189, 190, 194);
 }
