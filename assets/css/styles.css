@@ -23,6 +23,10 @@ header .headerContainer
 	-webkit-text-fill-color: transparent;
 	transform: translateY(-17%);
 }
+a:hover {
+	font-size: 15px;
+	color: white !important;
+}
 h1{
 	padding: 2rem;
 	background: rgb(255,86,0);
@@ -52,4 +56,11 @@ h1{
 form{
 	margin-top: 200px;
 	background-color: #343A40;
+	border-radius: 5px;
+}
+button {
+	margin-top: 15px;
+	width: 20%;
+	border-radius: 5px;
+	border: 1px groove rgb(189, 190, 194);
 }
