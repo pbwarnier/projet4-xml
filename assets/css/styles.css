@@ -7,6 +7,7 @@ header
 	background-color: #343A40;
 	overflow: hidden;
 }
+
 header .headerContainer
 {
 	margin: auto;
@@ -23,10 +24,18 @@ header .headerContainer
 	-webkit-text-fill-color: transparent;
 	transform: translateY(-17%);
 }
-a:hover {
-	font-size: 15px;
-	color: white !important;
+
+a{
+	transform: scale(1);
+	transition: 0.3s ease-out;
 }
+
+a:hover {
+	transform: scale(1.1);
+	color: #ffffff !important;
+	transition: 0.3s ease-out;
+}
+
 h1{
 	padding: 2rem;
 	background: rgb(255,86,0);
@@ -57,9 +66,18 @@ form{
 	background-color: #343A40;
 	border-radius: 5px;
 }
+
 button {
 	margin-top: 15px;
 	width: 20%;
 	border-radius: 5px;
 	border: 1px groove rgb(189, 190, 194);
+}
+
+@media screen and (max-width: 768px){
+	a:hover {
+		transform: scale(1);
+		color: #ffffff !important;
+		transition: 0.3s ease-out;
+	}
 }
