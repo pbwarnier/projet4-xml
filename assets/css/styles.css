@@ -1,9 +1,9 @@
 header
 {
 	display: flex;
-	margin: 0;
+	margin: 0 0 0 0;
 	padding: 0;
-	height: 40vh;
+	height: 10%;
 	background-color: #343A40;
 	overflow: hidden;
 }
@@ -15,6 +15,7 @@ header .headerContainer
 	font-size: 20vw;
 	color: transparent;
 	background-position: 50%;
+	mask-image: url('/assets/img/bgHeader.png');
 	background: linear-gradient(90deg, rgba(255,221,114,1) 1%, rgba(255,143,31,1) 46%, rgba(255,127,33,1) 86%,rgba(255,86,0,1) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-stroke: 2px;
@@ -23,7 +24,7 @@ header .headerContainer
 	transform: translateY(-17%);
 }
 
-header .headerContainer:hover
+header p.ocordoHeaderTitle
 {
 	margin: auto;
 	padding: 0;
@@ -38,7 +39,21 @@ header .headerContainer:hover
 	-webkit-text-stroke: 2px;
 	-webkit-text-stroke-color: rgb(255, 255, 255);
 }
-
+header p.ocordoHeaderTitle:hover
+{
+	margin: auto;
+	padding: 0;
+	font-family: 'impact';
+	font-size: 20vw;
+	color: transparent;
+	background-position: 50%;
+	background-image:  url('/assets/img/bgHeader.png');
+	-webkit-background-clip: text;
+	background-size: cover;
+	letter-spacing: 0.20em;
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+}
 a:hover {
 	font-size: 15px;
 	color: white !important;
