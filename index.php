@@ -44,6 +44,8 @@
 		<div class="w-100 p-3">
 			<?= $xml -> page[$case] -> content ?>
 		</div>
+	
+
 		<!-- Script -->
 		<script src="assets/js/script.js"></script>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
