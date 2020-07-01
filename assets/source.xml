@@ -40,7 +40,7 @@
 <h3 class="text-center">Présentation de notre entreprise</h3>
 <p class="text-justify mx-5 mt-4">Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p>
 <p class="text-justify mx-5">Nous travaillons exclusivement pour les particuliers.</p>
-<p class="mx-5"><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
+<p class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" class="embed-responsive-item" frameborder="0"></iframe></p>
 
 <p class="text-justify mx-5">Notre groupement est en mesure de vous proposer les compétences métier dans le gros oeuvre et le second oeuvre :</p>
 <ul class="ml-5">
