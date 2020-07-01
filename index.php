@@ -43,7 +43,7 @@
     			</ul>
     		</div>
 		</nav>
-		<div class="w-100 p-3">
+		<div class="w-100 p-5">
 			<?= $xml -> page[$case] -> content ?>
 		</div>
 	
