@@ -22,11 +22,11 @@
 		</header>
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
   			<a class="navbar-brand" href="index.php?id=1"><img width="40" src="assets/img/ocordoLogo.png" alt="Logo Ocordo"></a>
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  			<button class="navbar-toggler mx-auto mb-3" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
   			</button>
   			<div class="collapse navbar-collapse" id="navbar">
-    			<ul class="navbar-nav mr-auto flex-md-row">
+    			<ul class="navbar-nav mr-auto flex-md-row text-center">
 <?php
 				// Boucle pour ajouter tous les liens de la navbar
 				// $i est le compte tour et le numéro de case du tableau XML
@@ -34,7 +34,7 @@
 				// on affiche le texte XML de <menu> dans le texte du lien HTML <a> 
 	   			for ($i = 0; $i <= 3; $i++) {
 ?>
-					<li class="mr-3 p-2 nav-item">
+					<li class=" p-2 nav-item">
 	        			<a class="nav-link" href="index.php?id=<?= $xml -> page[$i]['id'] ?>"><?= $xml -> page[$i] -> menu ?></a>
 	      			</li>
 <?php 					

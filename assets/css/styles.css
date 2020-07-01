@@ -15,7 +15,20 @@ header
 	background-color: #343A40;
 	overflow: hidden;
 }
-
+.navbar-toggler {
+	background-image: url(../img/ocordoLogo.png);
+	background-size: 30px 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px solid #ff8f1f !important;
+}
+.navbar-toggler-icon {
+	opacity: 0;
+}
+.navbar-nav li:hover {
+	background-color: #ff5600;
+	opacity: 0.8;
+}
 header .headerContainer
 {
 	margin: auto;
@@ -68,7 +81,6 @@ a{
 	transform: scale(1);
 	transition: 0.3s ease-out;
 }
-
 a:hover {
 	transform: scale(1.1);
 	color: #ffffff !important;
@@ -124,5 +136,8 @@ button {
 	}
 	.divform {
 		width: 80%;
+	}
+	.navbar-brand {
+		display: none;
 	}
 }
