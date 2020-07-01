@@ -1,26 +1,128 @@
+body {
+	background-image: url(../img/whitewall.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+	background-repeat: no-repeat;
+	backdrop-filter: blur(0.3rem);
+}
+header
+{
+	display: flex;
+	margin: 0 0 0 0;
+	padding: 0;
+	height: 10%;
+	background-color: #343A40;
+	overflow: hidden;
+}
+
+header .headerContainer
+{
+	margin: auto;
+	padding: 0;
+	font-family: 'impact';
+	font-size: 20vw;
+	color: transparent;
+	background-position: 50%;
+	mask-image: url('/assets/img/bgHeader.png');
+	background: linear-gradient(90deg, rgba(255,221,114,1) 1%, rgba(255,143,31,1) 46%, rgba(255,127,33,1) 86%,rgba(255,86,0,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+	-webkit-text-fill-color: transparent;
+	transform: translateY(-17%);
+}
+
+header p.ocordoHeaderTitle
+{
+	margin: auto;
+	padding: 0;
+	font-family: 'impact';
+	font-size: 20vw;
+	color: transparent;
+	background-position: 50%;
+	background-image:  url('/assets/img/bgHeader.png');
+	-webkit-background-clip: text;
+	background-size: cover;
+	letter-spacing: 0.10em;
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+}
+header p.ocordoHeaderTitle:hover
+{
+	margin: auto;
+	padding: 0;
+	font-family: 'impact';
+	font-size: 20vw;
+	color: transparent;
+	background-position: 50%;
+	background-image:  url('/assets/img/bgHeader.png');
+	-webkit-background-clip: text;
+	background-size: cover;
+	letter-spacing: 0.20em;
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+a{
+	transform: scale(1);
+	transition: 0.3s ease-out;
+}
+
+a:hover {
+	transform: scale(1.1);
+	color: #ffffff !important;
+	transition: 0.3s ease-out;
+}
+
 h1{
 	padding: 2rem;
-	background-color: #FF4500;
-	color: #fff;
+	background: rgb(255,86,0);
+	background: linear-gradient(90deg, rgba(255,86,0,1) 1%,
+								   	   rgba(255,127,33,1) 46%,
+									   rgba(255,143,31,1) 86%,
+									   rgba(255,221,114,1) 100%);
+	color: rgb(255, 255, 255);
+	font-family: 'Alfa Slab One', cursive;
 }
 
 .gallery_box_single{
 	width: 100%;
 	display: flex;
-	overflow-x: scroll;
-}
-
-.img{
-	margin-right: 30px;
-	width: auto;
-	display: inline-block;
 }
 
 .caption-text{
 	text-align: center;
 }
 
+.divform {
+	width: 50%;
+}
 form{
 	margin-top: 200px;
 	background-color: #343A40;
+	border-radius: 0 0 10px 10px;
+}
+
+button {
+	margin-top: 15px;
+	border-radius: 5px;
+	border: 1px groove rgb(189, 190, 194);
+}
+.quote {
+	border-radius: 0 0 10px 10px;
+}
+.contact {
+	list-style: none;
+}
+
+@media screen and (max-width: 768px){
+	a:hover {
+		transform: scale(1);
+		color: #ffffff !important;
+		transition: 0.3s ease-out;
+	}
+	.divform {
+		width: 80%;
+	}
 }
