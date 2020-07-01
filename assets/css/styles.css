@@ -72,7 +72,6 @@ header p.ocordoHeaderTitle:hover
 	-webkit-text-stroke: 2px;
 	-webkit-text-stroke-color: rgb(255, 255, 255);
 }
-
 a{
 	transform: scale(1);
 	transition: 0.3s ease-out;
@@ -82,7 +81,6 @@ a:hover {
 	color: #ffffff !important;
 	transition: 0.3s ease-out;
 }
-
 h1{
 	padding: 2rem;
 	background: rgb(255,86,0);
@@ -93,16 +91,12 @@ h1{
 	color: rgb(255, 255, 255);
 	font-family: 'Alfa Slab One', cursive;
 }
-
 .gallery_box_single{
 	width: 100%;
-	display: flex;
 }
-
 .caption-text{
 	text-align: center;
 }
-
 .divform {
 	width: 50%;
 }
@@ -111,7 +105,6 @@ form{
 	background-color: #343A40;
 	border-radius: 0 0 10px 10px;
 }
-
 button {
 	margin-top: 15px;
 	border-radius: 5px;

@@ -8,25 +8,25 @@
 <p class="text-justify">Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p class="text-justify">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2 class="text-center">Nos dernières réalisations à Nantes</h2>
-<div class="gallery_box_single row justify-content-around mt-4">
+<div class="gallery_box_single row justify-content-around mt-4 mx-auto bg-dark py-4 text-white">
     <div class="img col-lg-4 col-md-6 text-center p-0">
-        <img src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/>
+        <img src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes" class="img-fluid"/>
         <p class="caption-text">Rénovation d'un appartement à Nantes</p>
     </div>
     <div class="img col-lg-4 col-md-6 text-center p-0">
-        <img src="assets/img/Travaux-de-renovation-a-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/>
+        <img src="assets/img/Travaux-de-renovation-a-nantes-300-225.jpg" alt="Aménagement de comble à Nantes" class="img-fluid"/>
         <p class="caption-text">Aménagement de comble à Nantes</p>
     </div>
     <div class="img col-lg-4 col-md-6 text-center p-0">
-        <img src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/>
+        <img src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes" class="img-fluid"/>
         <p class="caption-text">Rénovation d'une maison à Nantes</p>
     </div>
     <div class="img col-lg-4 col-md-6 text-center p-0">
-        <img src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/>
+        <img src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes" class="img-fluid"/>
         <p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p>
     </div>
     <div class="img col-lg-4 col-md-6 text-center p-0">
-        <img src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/>
+        <img src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes" class="img-fluid"/>
         <p class="caption-text">Rénovation d'un appartement à Nantes</p>
     </div>	
 </div>
