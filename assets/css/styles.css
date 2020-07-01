@@ -25,10 +25,6 @@ header
 .navbar-toggler-icon {
 	opacity: 0;
 }
-.navbar-nav li:hover {
-	background-color: #ff5600;
-	opacity: 0.8;
-}
 header .headerContainer
 {
 	margin: auto;
@@ -139,5 +135,9 @@ button {
 	}
 	.navbar-brand {
 		display: none;
+	}
+	.navbar-nav li:hover {
+		background-color: #ff5600;
+		opacity: 0.8;
 	}
 }
