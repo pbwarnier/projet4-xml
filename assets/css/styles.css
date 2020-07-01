@@ -1,3 +1,10 @@
+body {
+	background-image: url(../img/whitewall.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 header
 {
 	display: flex;
@@ -75,6 +82,7 @@ h1{
 									   rgba(255,143,31,1) 86%,
 									   rgba(255,221,114,1) 100%);
 	color: rgb(255, 255, 255);
+	font-family: 'Alfa Slab One', cursive;
 }
 
 .gallery_box_single{
@@ -85,7 +93,9 @@ h1{
 .caption-text{
 	text-align: center;
 }
-
+.divform {
+	width: 50%;
+}
 form{
 	margin-top: 200px;
 	background-color: #343A40;
@@ -94,7 +104,7 @@ form{
 
 button {
 	margin-top: 15px;
-	width: 20%;
+	width: 40%;
 	border-radius: 5px;
 	border: 1px groove rgb(189, 190, 194);
 }
@@ -110,5 +120,8 @@ button {
 		transform: scale(1);
 		color: #ffffff !important;
 		transition: 0.3s ease-out;
+	}
+	.divform {
+		width: 80%;
 	}
 }
