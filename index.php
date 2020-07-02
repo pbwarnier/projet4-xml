@@ -58,6 +58,6 @@
  <?php
  	}
  	else{
- 		header('location: index.php?id=1');
+ 		header('location: 1.html');
  		exit();
  	}
