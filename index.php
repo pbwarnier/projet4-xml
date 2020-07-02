@@ -20,7 +20,7 @@
  				<p class="ocordoHeaderTitle">OCORDO</p>
  			</div>
  		</header>
- 		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+ 		<nav class="navbar navbar-expand-md navbar-dark bg-dark pt-0">
    			<a class="navbar-brand" href="index.php?id=1"><img width="40" src="assets/img/ocordoLogo.png" alt="Logo Ocordo"></a>
    			<button class="navbar-toggler mx-auto mb-3" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      			<span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
  				// on affiche le texte XML de <menu> dans le texte du lien HTML <a> 
  	   			for ($i = 0; $i <= 3; $i++) {
  ?>
- 					<li class=" p-2 nav-item">
+ 					<li class="p-2 nav-item">
 					 <a class="nav-link" href="<?= $xml -> page[$i]['id'] ?>.html"><?= $xml -> page[$i] -> menu ?></a>
  	      			</li>
  <?php 					
@@ -43,7 +43,7 @@
      			</ul>
      		</div>
  		</nav>
- 		<div class="w-100 p-5">
+ 		<div class="w-100 p-4">
  			<?= $xml -> page[$case] -> content ?>
  		</div>
 
